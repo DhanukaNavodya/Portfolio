@@ -22,6 +22,7 @@ const stats = [
 ];
 
 function Home() {
+  const [imgError, setImgError] = useState(false);
   return (
     <section className="relative overflow-hidden min-h-[calc(100vh-4rem)]">
       <div className="absolute inset-0 grid-pattern opacity-30 pointer-events-none" />
