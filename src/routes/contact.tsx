@@ -5,9 +5,9 @@ import { Mail, MapPin, Send, Github, Linkedin, Twitter } from "lucide-react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Alex Carter" },
-      { name: "description", content: "Get in touch with Alex Carter for freelance work, collaborations and consulting." },
-      { property: "og:title", content: "Contact — Alex Carter" },
+      { title: "Contact — Dhanuka Navodya" },
+      { name: "description", content: "Get in touch with Dhanuka Navodya for freelance work, collaborations and consulting." },
+      { property: "og:title", content: "Contact — Dhanuka Navodya" },
       { property: "og:description", content: "Let's build something together." },
     ],
   }),
@@ -32,19 +32,19 @@ function Contact() {
           <div className="glass rounded-2xl p-6">
             <Mail className="text-primary mb-3" size={20} />
             <p className="text-sm text-muted-foreground mb-1">Email</p>
-            <a href="mailto:hello@alex.dev" className="font-medium hover:text-primary transition-colors">hello@alex.dev</a>
+            <a href="mailto:dhanukanavodya97@gmail.com" className="font-medium hover:text-primary transition-colors">dhanukanavodya97@gmail.com</a>
           </div>
           <div className="glass rounded-2xl p-6">
             <MapPin className="text-primary mb-3" size={20} />
             <p className="text-sm text-muted-foreground mb-1">Based in</p>
-            <p className="font-medium">Berlin, Germany</p>
+            <p className="font-medium">Agaregedara,Wewagama,Sri Lanka</p>
           </div>
           <div className="glass rounded-2xl p-6">
             <p className="text-sm text-muted-foreground mb-3">Find me online</p>
             <div className="flex gap-4">
-              <a href="https://github.com" className="hover:text-primary transition-colors"><Github size={20} /></a>
-              <a href="https://linkedin.com" className="hover:text-primary transition-colors"><Linkedin size={20} /></a>
-              <a href="https://twitter.com" className="hover:text-primary transition-colors"><Twitter size={20} /></a>
+              <a href="https://github.com/DhanukaNavodya" className="hover:text-primary transition-colors"><Github size={20} /></a>
+              <a href="https://www.linkedin.com/in/dhanuka-navodya-a69351314/" className="hover:text-primary transition-colors"><Linkedin size={20} /></a>
+              {/* <a href="https://twitter.com" className="hover:text-primary transition-colors"><Twitter size={20} /></a> */}
             </div>
           </div>
         </aside>

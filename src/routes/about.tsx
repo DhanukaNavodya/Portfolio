@@ -3,9 +3,9 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Alex Carter" },
-      { name: "description", content: "About Alex Carter, software engineer with 6+ years building products from idea to scale." },
-      { property: "og:title", content: "About — Alex Carter" },
+      { title: "About — Dhanuka Navodya" },
+      { name: "description", content: "About Dhanuka Navodya, software engineer with 6+ years building products from idea to scale." },
+      { property: "og:title", content: "About — Dhanuka Navodya" },
       { property: "og:description", content: "Engineer, builder, lifelong learner." },
     ],
   }),
@@ -31,11 +31,11 @@ function About() {
     <div className="max-w-4xl mx-auto px-6 py-24">
       <p className="font-mono text-sm text-primary mb-3">// about me</p>
       <h1 className="text-5xl md:text-6xl font-bold mb-6">
-        Hi, I'm <span className="text-gradient">Alex</span>.
+        Hi, I'm <span className="text-gradient">Dhanuka</span>.
       </h1>
       <div className="text-lg text-muted-foreground space-y-5 leading-relaxed max-w-2xl">
         <p>
-          I'm a software engineer based in Berlin, with a soft spot for systems that feel
+          I'm a software engineer based in Sri Lanka, with a soft spot for systems that feel
           effortless to use. I've spent the last six years bouncing between frontend
           architecture, backend infrastructure, and the messy product seams in between.
         </p>

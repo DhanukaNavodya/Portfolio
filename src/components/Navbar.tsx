@@ -16,7 +16,7 @@ export function Navbar() {
     <header className="fixed top-0 inset-x-0 z-50 glass">
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link to="/" className="font-display font-bold text-2xl tracking-tight">
-          <span className="text-gradient">LOGO</span>
+          <span className="text-gradient">Dhanuka</span>
         </Link>
         <div className="hidden md:flex items-center gap-8 text-sm">
           {links.map((l) => (

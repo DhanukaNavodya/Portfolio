@@ -6,9 +6,9 @@ import heroImg from "@/assets/hero-portrait.png";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Alex Carter — Software Engineer Portfolio" },
+      { title: "Dhanuka Navodya — Software Engineer Portfolio" },
       { name: "description", content: "Full-stack software engineer crafting fast, beautiful, scalable digital products." },
-      { property: "og:title", content: "Alex Carter — Software Engineer" },
+      { property: "og:title", content: "Dhanuka Navodya — Software Engineer" },
       { property: "og:description", content: "Full-stack engineer crafting elegant digital products." },
     ],
   }),
@@ -30,7 +30,7 @@ function Home() {
         {/* Left */}
         <div className="relative z-10">
           <p className="text-muted-foreground text-lg mb-2">Hi I am</p>
-          <h2 className="text-2xl md:text-3xl font-semibold mb-4">Alex Carter</h2>
+          <h2 className="text-2xl md:text-3xl font-semibold mb-4">Dhanuka Navodya</h2>
           <h1 className="text-5xl md:text-7xl font-bold leading-[1.05] mb-6">
             <span className="text-gradient">Software</span>
             <br />
