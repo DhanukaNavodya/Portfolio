@@ -81,13 +81,27 @@ function Home() {
             <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-20 blur-3xl animate-glow-pulse" />
             <div className="absolute inset-0 rounded-full border border-primary/30" />
             <div className="absolute inset-4 rounded-full bg-card/40 backdrop-blur-sm" />
-            <img
-              src={heroImg}
-              alt="Alex Carter portrait"
-              width={1024}
-              height={1280}
-              className="relative z-10 w-full h-full object-contain object-bottom animate-float drop-shadow-2xl"
-            />
+            {!imgError ? (
+              <img
+                src={heroImg}
+                alt="Portrait"
+                width={1024}
+                height={1280}
+                onError={() => setImgError(true)}
+                className="relative z-10 w-full h-full object-contain object-bottom animate-float drop-shadow-2xl"
+              />
+            ) : (
+              <div className="relative z-10 w-full h-full flex flex-col items-center justify-center animate-float">
+                <div className="w-40 h-40 md:w-48 md:h-48 rounded-full bg-gradient-primary/20 border-2 border-dashed border-primary/40 flex items-center justify-center mb-4">
+                  <User size={72} className="text-primary/70" strokeWidth={1.25} />
+                </div>
+                <p className="text-sm text-muted-foreground font-mono text-center px-6">
+                  Add your photo at
+                  <br />
+                  <span className="text-primary">src/assets/hero-portrait.png</span>
+                </p>
+              </div>
+            )}
           </div>
         </div>
       </div>
