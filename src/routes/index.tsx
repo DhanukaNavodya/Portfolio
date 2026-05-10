@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Download, Instagram, Github, Linkedin, Dribbble } from "lucide-react";
+import { Download, Instagram, Github, Linkedin, Dribbble, User } from "lucide-react";
+import { useState } from "react";
 import heroImg from "@/assets/hero-portrait.png";
 
 export const Route = createFileRoute("/")({
